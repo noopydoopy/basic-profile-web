@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sooparerk Sakyai">
+    <meta name="description" content="A basic website to present the user profile">
+    <title>Profile Card</title>
+    <link rel="icon" href="images/star.png">
+    <link rel="stylesheet" href="styles/main.css" >
+</head>
+<body>
+    <div class="card">
+        <!-- Settings Icon -->
+        <div class="settings">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+        </div>
+
+        <!-- Profile Image Section -->
+        <div class="profile-section">
+            <div class="profile-image">
+                <img src="" alt="Profile">
+            </div>
+            <div class="status-dot"></div>
+        </div>
+
+        <!-- Profile Info -->
+        <div class="profile-info">
+            <h2>Sooparerk Sakyai</h2>
+            <p>I'm a senior software engineer at <a href="https://mycostech.com/" target="_blank">Mycos Technologies Co,. Ltd.</a> with 10+ years of experiences of develop a good software products</p>
+        </div>
+
+        <!-- Form Fields -->
+        <div class="form-fields">
+            <div class="form-group">
+                <label>Email address</label>
+                <input type="email" value="sooparerk@mycostech.com" readonly>
+            </div>
+
+            <div class="form-group">
+                <label>Phone</label>
+                <input type="tel" value="888-456-897" readonly>
+            </div>
+
+            <div class="form-group">
+                <label>Website</label>
+                <input type="url" value="www.sooparerk.com" readonly>
+            </div>
+
+            <div class="form-group">
+                <label>Description</label>
+                <textarea rows="4" cols="50" readonly>Cool, Calm and Collected.</textarea>
+            </div>
+
+            <!-- <div class="form-group">
+                <label>Password</label>
+                <div class="password-field">
+                    <input type="password" value="••••••••" readonly>
+                    <button class="password-toggle">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                        </svg>
+                    </button>
+                </div>
+            </div> -->
+        </div>
+
+        <div class="button-control">
+            <button class="btn btn-outline">Message</button>
+            <button class="btn btn-filled">Connect</button>
+        </div>
+    </div>
+</body>
+</html>

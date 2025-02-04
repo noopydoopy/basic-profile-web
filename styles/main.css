@@ -25,7 +25,7 @@ a:hover {
 .card {
     background: white;
     border-radius: 24px;
-    padding: 32px;
+    padding: 18px;
     width: 400px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
@@ -107,7 +107,7 @@ a:hover {
 }
 
 .form-group input,
-textarea {
+textarea, select {
     width: 100%;
     padding: 8px 12px;
     border: 1px solid #E5E7EB;

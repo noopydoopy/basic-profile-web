@@ -156,6 +156,7 @@ input[readonly] {
     cursor: pointer;
     transition: all 0.3s ease;
     border: none;
+    word-wrap: break-word;
 }
 
 .btn-outline {
